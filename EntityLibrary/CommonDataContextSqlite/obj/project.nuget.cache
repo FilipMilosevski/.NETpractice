@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U2N1JhAagHWneJPHpXzwtx2D/UeEFHiryh0tC4mdT88KUsmLK6alwp5EQ9YuQJSEmOOSetS2WjgcP7goKsTOBA==",
+  "dgSpecHash": "mP4Z3IZCzPL0L9TMDFtJvU7Zp7SBQPhJCaUieG/SyTiL5dErn5ROMAKrJ8OjKn/Wcvvn1rtS4W7iCZuWfPD9VQ==",
   "success": true,
-  "projectFilePath": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\CommonDataContextSqlite.csproj",
+  "projectFilePath": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\NorthwindCommonDataContextSqlite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

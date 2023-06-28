@@ -1159,9 +1159,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\CommonDataContextSqlite.csproj",
-      "projectName": "CommonDataContextSqlite",
-      "projectPath": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\CommonDataContextSqlite.csproj",
+      "projectUniqueName": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\NorthwindCommonDataContextSqlite.csproj",
+      "projectName": "NorthwindCommonDataContextSqlite",
+      "projectPath": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\NorthwindCommonDataContextSqlite.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\.NETpractice\\EntityLibrary\\CommonDataContextSqlite\\obj\\",
       "projectStyle": "PackageReference",
