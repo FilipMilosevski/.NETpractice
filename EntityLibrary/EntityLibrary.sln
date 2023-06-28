@@ -5,6 +5,12 @@ VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthwindCommonEntityModelsSqlite", "Project1\NorthwindCommonEntityModelsSqlite.csproj", "{2EAAF652-EF63-46E8-99FD-ED3E89B81048}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindCommonDataContextSqlite", "CommonDataContextSqlite\NorthwindCommonDataContextSqlite.csproj", "{BEABAE6C-592B-4F46-83F1-14DBB68BA0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindCommonDataContextSqlServer", "NorthwindCommonDataContextSqlServer\NorthwindCommonDataContextSqlServer.csproj", "{2885B944-771F-4504-BE37-4CC5BBF87861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindCommonEntityModelsSqlServer", "NorthwindCommonEntityModelsSqlServer\NorthwindCommonEntityModelsSqlServer.csproj", "{A20EEAB6-CEFE-4E36-9917-D4CC1DB217FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{2EAAF652-EF63-46E8-99FD-ED3E89B81048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAAF652-EF63-46E8-99FD-ED3E89B81048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EAAF652-EF63-46E8-99FD-ED3E89B81048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEABAE6C-592B-4F46-83F1-14DBB68BA0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEABAE6C-592B-4F46-83F1-14DBB68BA0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEABAE6C-592B-4F46-83F1-14DBB68BA0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEABAE6C-592B-4F46-83F1-14DBB68BA0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2885B944-771F-4504-BE37-4CC5BBF87861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2885B944-771F-4504-BE37-4CC5BBF87861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2885B944-771F-4504-BE37-4CC5BBF87861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2885B944-771F-4504-BE37-4CC5BBF87861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20EEAB6-CEFE-4E36-9917-D4CC1DB217FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20EEAB6-CEFE-4E36-9917-D4CC1DB217FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20EEAB6-CEFE-4E36-9917-D4CC1DB217FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20EEAB6-CEFE-4E36-9917-D4CC1DB217FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

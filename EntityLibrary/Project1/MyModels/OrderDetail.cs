@@ -24,7 +24,7 @@ public partial class OrderDetail
     public decimal[] UnitPrice { get; set; } = null!;
 
     [Column(TypeName = "smallint")]
-    public int Quantity { get; set; }
+    public short Quantity { get; set; }
 
     public double Discount { get; set; }
 

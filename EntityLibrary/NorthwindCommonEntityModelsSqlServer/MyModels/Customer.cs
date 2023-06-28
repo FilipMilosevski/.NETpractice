@@ -8,10 +8,13 @@ namespace Packt.Shared;
 
 public partial class Customer
 {
+    [Required]
     [Key]
     [Column("CustomerID")]
+    [RegularExpression("{A-Z}{5}")] 
     public int CustomerId { get; set; }
 
+    [Required]
     [StringLength(50)]
     [Unicode(false)]
     public string? CustomerName { get; set; }
