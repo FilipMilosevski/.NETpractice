@@ -1,0 +1,15 @@
+C:\.NETpractice\EntityLibrary\Project1\bin\Debug\net7.0\NorthwindCommonEntityModelsSqlite.deps.json
+C:\.NETpractice\EntityLibrary\Project1\bin\Debug\net7.0\NorthwindCommonEntityModelsSqlite.runtimeconfig.json
+C:\.NETpractice\EntityLibrary\Project1\bin\Debug\net7.0\NorthwindCommonEntityModelsSqlite.dll
+C:\.NETpractice\EntityLibrary\Project1\bin\Debug\net7.0\NorthwindCommonEntityModelsSqlite.pdb
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.csproj.AssemblyReference.cache
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.AssemblyInfoInputs.cache
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.AssemblyInfo.cs
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.csproj.CoreCompileInputs.cache
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.dll
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\refint\NorthwindCommonEntityModelsSqlite.dll
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.pdb
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\NorthwindCommonEntityModelsSqlite.genruntimeconfig.cache
+C:\.NETpractice\EntityLibrary\Project1\obj\Debug\net7.0\ref\NorthwindCommonEntityModelsSqlite.dll
+C:\.NETpractice\EntityLibrary\Project1\bin\Debug\net7.0\Database\FilipDatabase.db
