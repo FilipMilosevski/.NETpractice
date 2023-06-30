@@ -16,7 +16,7 @@ public static class NorthwindContextExtensions
         services.AddDbContext<FilipDatabaseContext>(options =>
         {
             options.UseSqlServer(connectionString);
-            options.LogTo(Console.WriteLine, // Console
+            options.LogTo(Console.WriteLine, // Console  
             new[] {
             Microsoft.EntityFrameworkCore.Diagnostics.RelationalEventId.CommandExecuting });
         });
