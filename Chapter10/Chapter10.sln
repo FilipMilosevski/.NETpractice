@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithEfCore", "WorkingWithEfCore\WorkingWithEfCore.csproj", "{25938E83-1D6B-4FC5-BA5F-3EC48260029D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginProject", "LoginProject\LoginProject.csproj", "{9CEA6D8C-5301-4B65-A15B-5451085E474D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{25938E83-1D6B-4FC5-BA5F-3EC48260029D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25938E83-1D6B-4FC5-BA5F-3EC48260029D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25938E83-1D6B-4FC5-BA5F-3EC48260029D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEA6D8C-5301-4B65-A15B-5451085E474D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEA6D8C-5301-4B65-A15B-5451085E474D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEA6D8C-5301-4B65-A15B-5451085E474D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEA6D8C-5301-4B65-A15B-5451085E474D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
