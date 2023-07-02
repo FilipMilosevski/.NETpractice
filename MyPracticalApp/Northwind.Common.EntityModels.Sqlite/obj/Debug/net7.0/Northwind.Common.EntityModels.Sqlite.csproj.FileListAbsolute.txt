@@ -1,0 +1,15 @@
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\bin\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.deps.json
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\bin\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.runtimeconfig.json
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\bin\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.dll
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\bin\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.pdb
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.csproj.AssemblyReference.cache
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.AssemblyInfoInputs.cache
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.AssemblyInfo.cs
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.csproj.CoreCompileInputs.cache
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.dll
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\refint\Northwind.Common.EntityModels.Sqlite.dll
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.pdb
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\Northwind.Common.EntityModels.Sqlite.genruntimeconfig.cache
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\obj\Debug\net7.0\ref\Northwind.Common.EntityModels.Sqlite.dll
+C:\.NETpractice\MyPracticalApp\Northwind.Common.EntityModels.Sqlite\bin\Debug\net7.0\Database\MyNorthwind.db
