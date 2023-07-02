@@ -1,0 +1,5 @@
+C:\.NETpractice\Chapter10\SqlServerPractice1\obj\Debug\net7.0\SqlServerPractice1.csproj.AssemblyReference.cache
+C:\.NETpractice\Chapter10\SqlServerPractice1\obj\Debug\net7.0\SqlServerPractice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NETpractice\Chapter10\SqlServerPractice1\obj\Debug\net7.0\SqlServerPractice1.AssemblyInfoInputs.cache
+C:\.NETpractice\Chapter10\SqlServerPractice1\obj\Debug\net7.0\SqlServerPractice1.AssemblyInfo.cs
+C:\.NETpractice\Chapter10\SqlServerPractice1\obj\Debug\net7.0\SqlServerPractice1.csproj.CoreCompileInputs.cache
