@@ -1,0 +1,14 @@
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\bin\Debug\net7.0\EntityModelSqlServer.deps.json
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\bin\Debug\net7.0\EntityModelSqlServer.dll
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\bin\Debug\net7.0\EntityModelSqlServer.pdb
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.csproj.AssemblyReference.cache
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.AssemblyInfoInputs.cache
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.AssemblyInfo.cs
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.csproj.CoreCompileInputs.cache
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.dll
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\refint\EntityModelSqlServer.dll
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.pdb
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\ref\EntityModelSqlServer.dll
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\bin\Debug\net7.0\EntityModelSqlServer.runtimeconfig.json
+C:\.NETpractice\NewPracticalApp\EntityModelSqlServer\obj\Debug\net7.0\EntityModelSqlServer.genruntimeconfig.cache
