@@ -11,8 +11,8 @@ namespace CodeFirst.Categories
         public uint EmployeeID { get; set; }
         public string EFname { get; set; }
         public string ELname { get; set; }
-
-        public string ffffff { get; set; }
+        public string ECountry { get; set; }
+        
         
     }
 }
