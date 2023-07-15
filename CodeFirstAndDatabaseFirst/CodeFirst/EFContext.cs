@@ -14,6 +14,13 @@ namespace CodeFirst
         public DbSet<Department> Departments { get; set; }
         public DbSet<Product> Products { get; set; }
 
+        public DbSet<Customer> Customers { get; set; }
+
+        public DbSet<CustomerNew> CustomerNews { get; set; }
+
+
+        
+
         private const string connectionString = "Server=.;Database=MyCodeFirst;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true;";
 
 

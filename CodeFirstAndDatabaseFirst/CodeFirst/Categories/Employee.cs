@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,11 +9,11 @@ namespace CodeFirst.Categories
 {
     public class Employee
     {
-        public uint EmployeeID { get; set; }
-        public string EFname { get; set; }
-        public string ELname { get; set; }
-        public string ECountry { get; set; }
-        
-        
+        public int EmployeeID { get; set; }
+        public string EmployeeName { get; set; }
+        [ForeignKey("Department")]
+        public int DeptID { get; set; }
+        //Navigation property
+        public Department Department { get; set; }
     }
 }

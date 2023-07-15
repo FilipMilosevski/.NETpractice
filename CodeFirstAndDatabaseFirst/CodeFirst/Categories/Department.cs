@@ -10,5 +10,8 @@ namespace CodeFirst.Categories
     {
         public int DepartmentID { get; set; }
         public string DepartmentName { get; set; }
+        //Navigation property
+        public ICollection<Employee> Employeees { get; set; }
     }
+
 }
