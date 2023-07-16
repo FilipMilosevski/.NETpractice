@@ -18,6 +18,9 @@ namespace CodeFirst.Categories
         public string Name { get; set; }
         [Column(TypeName = "nvarchar(100)", Order = 6)]
         public string Name1 { get; set; }
+
+
+
         [Column(TypeName = "varchar", Order = 5)]
         public string Address { get; set; }
 
