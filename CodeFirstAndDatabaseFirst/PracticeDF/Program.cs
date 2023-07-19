@@ -14,6 +14,7 @@ static void Filter3()
             Console.WriteLine(p.Name,p.Region);
            
         }
+
         foreach (Language l in languages)
         {
             Console.WriteLine(l.Language1) ;
@@ -22,56 +23,37 @@ static void Filter3()
 }
 Filter3();
 
- static void ExecuteQueryAndPrintResults(string connectionString)
+Console.WriteLine("-------------------------------------------");
+static void Filter4()
 {
-    string sqlQuery = @"
-            SELECT
-                Regions.continentID,
-                Continents.name,
-                Countries.name,
-                Countries.countryCode2,
-                CountryLanguages.official,
-                Languages.languageID,
-                CountryStats.year,
-                CountryStats.population,
-                CountryStats.gdp
-            FROM Continents
-            INNER JOIN Regions ON Continents.continentID = Regions.continentID
-            INNER JOIN Countries ON Regions.regionID = Countries.regionID
-            INNER JOIN CountryLanguages ON Countries.countryID = CountryLanguages.countryID
-            INNER JOIN Languages ON CountryLanguages.languageID = Languages.languageID
-            INNER JOIN CountryStats ON Countries.countryID = CountryStats.countryID";
-
-    using (SqlConnection connection = new SqlConnection(connectionString))
+    using(SimpleDbgegoraphyContext db = new SimpleDbgegoraphyContext())
     {
-        SqlCommand command = new SqlCommand(sqlQuery, connection);
-
-        try
+        DbSet<Country> countries = db.Countries;
+        IQueryable<Country> filterCountries = countries.Where(p => p.Name.Contains("m"));
+        foreach (Country c in filterCountries)
         {
-            connection.Open();
-            SqlDataReader reader = command.ExecuteReader();
-
-            while (reader.Read())
-            {
-                int continentID = reader.GetInt32(0);
-                string continentName = reader.GetString(1);
-                string countryName = reader.GetString(2);
-                string countryCode2 = reader.GetString(3);
-                bool isOfficial = reader.GetBoolean(4);
-                int languageID = reader.GetInt32(5);
-                int year = reader.GetInt32(6);
-                long population = reader.GetInt64(7);
-                decimal gdp = reader.GetDecimal(8);
-
-                Console.WriteLine($"Continent: {continentName}, Country: {countryName}, Population: {population}, GDP: {gdp}");
-            }
-
-            reader.Close();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine("Error: " + ex.Message);
+            Console.WriteLine(c.Name);
         }
     }
 }
 
+Filter4();
+
+
+Console.WriteLine("------------------------------------------------");
+
+static void Filter5()
+{
+    using(SimpleDbgegoraphyContext db = new SimpleDbgegoraphyContext())
+    {
+        DbSet<CountryStat> countryStats = db.CountryStats;
+        IQueryable<CountryStat> allCountryStats = countryStats.Where(c => c.Population < 50000000);
+        foreach (CountryStat cs in allCountryStats)
+        {
+            Console.WriteLine(cs.Population);
+
+        }
+    }
+}
+
+Filter5();
