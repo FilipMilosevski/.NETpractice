@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "4Ha954QeiqvnLaDo/mjAkvrUYckbfFDjU6+TLbAiq7g=",
+  "Source": "Project1Empty",
+  "BasePath": "_content/Project1Empty",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Project1Empty\\wwwroot",
+      "Source": "Project1Empty",
+      "ContentRoot": "C:\\.NETpractice\\HomePracticalApp\\PP\\wwwroot\\",
+      "BasePath": "_content/Project1Empty",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\.NETpractice\\HomePracticalApp\\PP\\wwwroot\\index.html",
+      "SourceId": "Project1Empty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\.NETpractice\\HomePracticalApp\\PP\\wwwroot\\",
+      "BasePath": "_content/Project1Empty",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
