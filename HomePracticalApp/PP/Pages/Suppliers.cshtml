@@ -1,7 +1,7 @@
 ﻿@page
 @model Project1Empty.Pages.SuppliersModel
-@{
-}
+
+
 <div>
     <h1>FILIPS PAGE</h1>
 </div>
@@ -12,6 +12,13 @@
             <tr><th>Company Name</th></tr>
         </thead>
         <tbody>
+            @if (Model.Suppliers is not null)
+            {
+                @foreach (string name in Model.Suppliers)
+                {
+                    <tr><td>@name</td></tr>
+                }
+            }
             @if (Model.Suppliers is not null)
             {
                 @foreach (string name in Model.Suppliers)

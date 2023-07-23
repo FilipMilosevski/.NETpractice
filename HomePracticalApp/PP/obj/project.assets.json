@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.NETpractice\\HomePracticalApp\\PP\\PP.csproj",
-      "projectName": "PP",
-      "projectPath": "C:\\.NETpractice\\HomePracticalApp\\PP\\PP.csproj",
+      "projectUniqueName": "C:\\.NETpractice\\HomePracticalApp\\PP\\Project1Empty.csproj",
+      "projectName": "Project1Empty",
+      "projectPath": "C:\\.NETpractice\\HomePracticalApp\\PP\\Project1Empty.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\.NETpractice\\HomePracticalApp\\PP\\obj\\",
       "projectStyle": "PackageReference",

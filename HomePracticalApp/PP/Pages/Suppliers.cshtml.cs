@@ -10,10 +10,7 @@ namespace Project1Empty.Pages
 	public void OnGet()
 		{
 			ViewData["Title"] = "Northwind B2B - Suppliers";
-			Suppliers = new[]
-			{
-			"Alpha Co", "Beta Limited", "Gamma Corp"
-			};
+			Suppliers = new[]{"Alpha Co", "Beta Limited", "Gamma Corp"};
 		}
 	}
 }
