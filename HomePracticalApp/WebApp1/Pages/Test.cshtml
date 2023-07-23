@@ -1,0 +1,29 @@
+﻿
+
+@page
+
+@model WebApp1.Pages.TestModel
+@{
+    ViewData["Title"] = "TEST NOW";
+}
+
+
+<div class="row">
+    <h1 class="display-2">Tests</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr><th>Company Name</th></tr>
+        </thead>
+        <tbody>
+            @if (Model.Tests is not null)
+            {
+                @foreach (string name in Model.Tests)
+                {
+                    <tr><td>@name</td></tr>
+                }
+            }
+            
+            
+        </tbody>
+    </table>
+</div>

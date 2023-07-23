@@ -1,0 +1,25 @@
+﻿@page
+@model WebApp1.Pages.RentModel
+@{
+}
+
+
+<div class="row">
+    <h1 class="display-2">Rent a car today for only 19$ per day</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr><th>Company Name</th></tr>
+        </thead>
+        <tbody>
+            @if (Model.Rents is not null)
+            {
+                @foreach (string name in Model.Rents)
+                {
+                    <tr><td>@name</td></tr>
+                }
+            }
+
+
+        </tbody>
+    </table>
+</div>
