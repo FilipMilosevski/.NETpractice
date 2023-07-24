@@ -1,5 +1,7 @@
+using Filip;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApp1.Pages
 {
@@ -14,5 +16,7 @@ namespace WebApp1.Pages
             ViewData["Title"] = "TEST NOW";
             Tests = new[] { "History", "Law", "Economy","Sport","Travel" };
         }
+      
+      
     }
 }
