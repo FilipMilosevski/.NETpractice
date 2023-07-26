@@ -1,0 +1,17 @@
+﻿@page
+@using Filip;
+
+
+@inject SimpleDbgegoraphyContext db
+@{
+	string title = "Stats";
+	ViewData["Title"] = $"New Page -{title}";
+}
+
+<div class="row">
+	<h1 class="display-2">@title</h1>
+	<p>
+		There are @db.Continents.Count() in the database. 
+	</p>
+</div>
+

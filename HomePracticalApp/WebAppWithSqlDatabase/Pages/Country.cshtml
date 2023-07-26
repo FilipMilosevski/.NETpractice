@@ -1,0 +1,52 @@
+﻿@page
+@using Filip;
+@model WebAppWithSqlDatabase.Pages.CountryModel
+@{
+	ViewData["Title"] = "Countries";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+
+<div class="row">
+
+	<h1 class="display-2">Countries</h1>
+	<table class="table">
+		<thead class="thead-inverse">
+			<tr>
+				<th>ID</th>
+				<th>NAME</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			@if (Model.Countries is not null)
+			{
+                @foreach(Country country in Model.Countries)
+                {
+					<tr>
+						<td>@country.CountryId</td>
+						<td>@country.Name</td>
+					</tr>
+
+				}
+			}
+		</tbody>
+	</table>
+
+
+</div>
+
+<div class="row">
+	<p>Enter details for a new supplier:</p>
+	<form method="POST">
+		<div>
+			<input asp-for="Country.CountryId" placeholder="CountryID" />
+		</div>
+		<div>
+			<input asp-for="Country.Name" placeholder="Name" />
+		</div>
+		
+		<input type="submit" />
+	</form>
+</div>

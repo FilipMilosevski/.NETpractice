@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/Z/5BhLqqDA4P3L8+lGS0Jx4lGTWsJaEvyLT+7l2yVw=",
+  "Source": "EmptyWebAppWithSqlDatabase",
+  "BasePath": "_content/EmptyWebAppWithSqlDatabase",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

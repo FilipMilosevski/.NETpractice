@@ -16,12 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\.NETpractice\HomePracticalApp\PP
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/.NETpractice/HomePracticalApp/PP/Pages/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+[C:/.NETpractice/HomePracticalApp/PP/Pages/ConSta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uU3RhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NETpractice/HomePracticalApp/PP/Pages/Suppliers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzLmNzaHRtbA==
+[C:/.NETpractice/HomePracticalApp/PP/Pages/Countries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/.NETpractice/HomePracticalApp/PP/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/.NETpractice/HomePracticalApp/PP/Pages/_Layout.cshtml]
