@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Mvc1.Models;
 using Mvc1.MyFolder;
+using Northwind.Mvc.Models;
 using System.Diagnostics;
 
 namespace Mvc1.Controllers
@@ -19,10 +20,14 @@ namespace Mvc1.Controllers
 		 
 		public IActionResult Index()
 		{
-			HomeIndexViewModel model = new HomeIndexViewModel();
-			VisitorCount: Random.Shared.Next(1, 100);
-			Countries: _context.Countries.ToList();
-			CountryStats: _context.CountryStats.ToList();
+			HomeIndexViewModel model = new HomeIndexViewModel(
+
+				VisitorCount: Random.Shared.Next(1, 100),
+				Countries: _context.Countries.ToList(),
+				CountryStats: _context.CountryStats.ToList()
+
+			) ;
+			
 
             return View(model);
 		} 

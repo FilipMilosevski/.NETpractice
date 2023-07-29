@@ -1,14 +1,10 @@
 ﻿using Mvc1.MyFolder;
 
-namespace Mvc1.Models
-{
-    public record HomeIndexViewModel
-    {
-        int VisitorCount;
-       
-        public IList<Country> Countries;
-        public IList<CountryStat> CountryStats;
+namespace Northwind.Mvc.Models;
 
-
-    }
-}
+public record HomeIndexViewModel
+(
+    int VisitorCount,
+    IList<Country> Countries,
+    IList<CountryStat> CountryStats
+);

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Mvc1.MyFolder;
 
 public partial class SimpleDbgegoraphyContext : DbContext
