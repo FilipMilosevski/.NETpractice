@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyWebAppWithSqlDatabase"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorProject1Empty", "RazorProject1Empty\RazorProject1Empty.csproj", "{7E42E4E7-37BD-4674-AEE9-C52A7871480B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc1", "Mvc1\Mvc1.csproj", "{D6BB5AB7-937B-464F-936C-4564D67D85B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc1", "Mvc1\Mvc1.csproj", "{D6BB5AB7-937B-464F-936C-4564D67D85B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
