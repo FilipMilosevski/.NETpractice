@@ -36,6 +36,17 @@ namespace Mvc1.Controllers
 		{
 			return View();
 		}
+		public IActionResult Countries1()
+		{
+			HomeIndexViewModel model = new HomeIndexViewModel(
+
+				VisitorCount: Random.Shared.Next(1, 100),
+				Countries: _context.Countries.ToList(),
+				CountryStats: _context.CountryStats.ToList()
+		);
+
+            return View(model);
+		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
