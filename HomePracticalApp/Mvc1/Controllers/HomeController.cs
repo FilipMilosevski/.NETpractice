@@ -34,8 +34,15 @@ namespace Mvc1.Controllers
 
 		public IActionResult Privacy()
 		{
-			return View();
-		}
+            HomeIndexViewModel model = new HomeIndexViewModel(
+
+            VisitorCount: Random.Shared.Next(1, 100),
+            Countries: _context.Countries.ToList(),
+            CountryStats: _context.CountryStats.ToList()
+			);
+
+            return View(model);
+        }
 		public IActionResult Countries1()
 		{
 			HomeIndexViewModel model = new HomeIndexViewModel(

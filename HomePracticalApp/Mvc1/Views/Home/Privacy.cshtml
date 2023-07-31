@@ -1,10 +1,36 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
+﻿@using Mvc1.MyFolder;
+@using Northwind.Mvc.Models;
+@{
+    ViewData["Title"] = "Privacy";
 }
-<h1>@ViewData["Title"]</h1>
-
-<p>Use this page to detail your site's privacy policy.</p>
 
 
+@model HomeIndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
 
+<div class="text-center">
+    <h1 class="display-4">Privacy Page</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>GDP (Dollars $)</th>
+                <th>Population (People)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CountryStat countrystat in Model.CountryStats)
+            {
+                <tr>
+                    <td>@countrystat.Year</td>
+                    <td>@countrystat.Gdp Dollars $</td>
+                    <td>@countrystat.Population People</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
 
