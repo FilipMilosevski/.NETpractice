@@ -11,25 +11,30 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4 text-light">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <table>
+    <table class="data-table text-light">
         <thead>
             <tr>
-                <th>Country</th>
-                <th>GDP (Dollars $)</th>
-                <th>Population (People)</th>
+                <th>Official Languages</th>
+                <th>Countries</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (CountryStat countrystat in Model.CountryStats)
-    {
-            <tr>
-                <td>@countrystat.Year</td>
-                <td>@countrystat.Gdp Dollars $</td>
-                <td>@countrystat.Population People</td>
-            </tr>
-    }
+            @for (int i = 0; i < Model.CountryLanguages.Count; i++)
+            {
+                <tr>
+                    <td>@Model.CountryLanguages[i].Official</td>
+                    @if (i < Model.Countries.Count)
+                    {
+                        <td>@Model.Countries[i].Name</td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                </tr>
+            }
         </tbody>
     </table>
 

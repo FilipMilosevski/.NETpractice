@@ -6,5 +6,7 @@ public record HomeIndexViewModel
 (
     int VisitorCount,
     IList<Country> Countries,
-    IList<CountryStat> CountryStats
+    IList<CountryStat> CountryStats,
+    IList<Language> Languages,
+    IList<CountryLanguage> CountryLanguages
 );

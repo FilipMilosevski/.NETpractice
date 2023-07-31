@@ -24,9 +24,12 @@ namespace Mvc1.Controllers
 
 				VisitorCount: Random.Shared.Next(1, 100),
 				Countries: _context.Countries.ToList(),
-				CountryStats: _context.CountryStats.ToList()
+				CountryStats: _context.CountryStats.ToList(),
+				Languages: _context.Languages.ToList(),
+				CountryLanguages: _context.CountryLanguages.ToList()
 
-			) ;
+
+			);
 			
 
             return View(model);
@@ -38,8 +41,11 @@ namespace Mvc1.Controllers
 
             VisitorCount: Random.Shared.Next(1, 100),
             Countries: _context.Countries.ToList(),
-            CountryStats: _context.CountryStats.ToList()
-			);
+            CountryStats: _context.CountryStats.ToList(),
+			Languages: _context.Languages.ToList(),
+            CountryLanguages: _context.CountryLanguages.ToList()
+
+            );
 
             return View(model);
         }
@@ -49,8 +55,12 @@ namespace Mvc1.Controllers
 
 				VisitorCount: Random.Shared.Next(1, 100),
 				Countries: _context.Countries.ToList(),
-				CountryStats: _context.CountryStats.ToList()
-		);
+				CountryStats: _context.CountryStats.ToList(),
+				Languages: _context.Languages.ToList(),
+                CountryLanguages: _context.CountryLanguages.ToList()
+
+
+        );
 
             return View(model);
 		}
