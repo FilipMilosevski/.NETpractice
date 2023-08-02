@@ -1,15 +1,16 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Mvc2.Data;
+using Mvc2.MyFolder;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString2 = builder.Configuration.GetConnectionString("f123NorthwindConnection") ?? throw new InvalidOperationException("Connection string 'f123NorthwindConnection' not found.");
 
-var connectionStringf123Northwind = builder.Configuration.GetConnectionString("f123Northwind") ?? throw new InvalidOperationException("Connection string 'f123Northwind' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionStringf123Northwind));
-
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<F123NorthwindContext>(options => options.UseSqlServer(connectionString2));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

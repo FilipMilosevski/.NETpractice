@@ -1,8 +1,34 @@
-﻿@{
+﻿@using Mvc2.MyFolder;
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @foreach(Category category in Model.Categories)
+    {
+        <p>@category.CategoryId</p>
+        <p>@category.CategoryName</p>
+        <p>@category.Description</p>
+
+    }
+</div>
+    
+
+<h2>Product Detail</h2>
+<hr />
+<div>
+    <dl class="dl-horizontal">
+        <dt>Product Id</dt>
+        <dd>@Model.ProductId</dd>
+        <dt>Product Name</dt>
+        <dd>@Model.ProductName</dd>
+        <dt>Category Id</dt>
+        <dd>@Model.CategoryId</dd>
+        <dt>Unit Price</dt>
+        <dd>@Model.Price.Value.ToString("C")</dd>
+        <dt>Units In Stock</dt>
+        <dd>@Model.Unit</dd>
+    </dl>
 </div>
