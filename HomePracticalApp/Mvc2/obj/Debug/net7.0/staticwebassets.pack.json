@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\categories.jpeg",
+      "PackagePath": "staticwebassets\\images\\categories.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category1.jpeg",
+      "PackagePath": "staticwebassets\\images\\category1.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category2.jpeg",
+      "PackagePath": "staticwebassets\\images\\category2.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category3.jpeg",
+      "PackagePath": "staticwebassets\\images\\category3.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category4.jpeg",
+      "PackagePath": "staticwebassets\\images\\category4.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category5.jpeg",
+      "PackagePath": "staticwebassets\\images\\category5.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category6.jpeg",
+      "PackagePath": "staticwebassets\\images\\category6.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category7.jpeg",
+      "PackagePath": "staticwebassets\\images\\category7.jpeg"
+    },
+    {
+      "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\images\\category8.jpeg",
+      "PackagePath": "staticwebassets\\images\\category8.jpeg"
+    },
+    {
       "Id": "C:\\.NETpractice\\HomePracticalApp\\Mvc2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
