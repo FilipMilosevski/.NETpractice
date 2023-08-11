@@ -3,9 +3,10 @@ using Project1.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+    ??  throw new InvalidOperationException("Connection string 'DefaultConnection' not found."); ;
 builder.Services.AddDbContext<Project1DbContext>(option => option.UseSqlServer(connectionString));
-//builder.Services.AddRazorPages();
+
 builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
@@ -18,5 +19,4 @@ app.MapControllerRoute(
     pattern: "{controller=Start}/{action=Index}");
 
 
-//app.MapRazorPages();
 app.Run();
